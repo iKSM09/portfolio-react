@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const NavigationContainer = styled.nav`
   height: 80px;
   padding: 0 16px;
-  background-color: ${({ theme }) => theme.surface02};
+  background-color: ${({ theme }) => theme.surface04};
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,7 +11,7 @@ export const NavigationContainer = styled.nav`
   top: 0;
   z-index: 999;
 
-  & h2 {
+  h2 {
     color: ${({ theme }) => theme.primary};
   }
 `;
@@ -43,12 +43,12 @@ export const ToggleButton = styled.button`
   padding: 0 16px;
   border: none;
   border-radius: 4px;
-  background: ${({ theme }) => theme.primaryContainer};
-  color: ${({ theme }) => theme.onPrimaryContainer};
+  background: ${({ theme }) => theme.secondary};
+  color: ${({ theme }) => theme.onSecondary};
 
   &:hover,
   &:focus {
-    background: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.onPrimary};
+    background: ${({ theme }) => theme.primaryContainer};
+    color: ${({ theme }) => theme.onPrimaryContainer};
   }
 `;

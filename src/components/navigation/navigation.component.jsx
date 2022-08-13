@@ -1,3 +1,5 @@
+import { Label } from "../../styles/themes/typography";
+
 import {
   NavigationContainer,
   NavLinks,
@@ -25,7 +27,9 @@ const Navigation = (props) => {
             <a href="">Get in Touch</a>
           </NavLink>
           <NavLink>
-            <ToggleButton onClick={toggleThemeHandler}>Theme</ToggleButton>
+            <ToggleButton onClick={toggleThemeHandler}>
+              <Label>Theme</Label>
+            </ToggleButton>
           </NavLink>
         </NavLinks>
       </NavigationContainer>

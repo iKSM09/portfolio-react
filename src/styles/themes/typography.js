@@ -1,3 +1,26 @@
+import styled from "styled-components";
+
+export const Label = styled.label`
+  font-weight: Medium;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+`;
+
+export const LabelSmall = styled.label`
+  font-weight: Medium;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+`;
+
+export const LabelLarge = styled.label`
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+`;
+
 export const typography = {
   label: {
     small: {

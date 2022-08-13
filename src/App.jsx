@@ -1,7 +1,14 @@
 import { useEffect, useState } from "react";
 import { ThemeProvider } from "styled-components";
 
-import Navigation from "./components/navigation/navigation.component";
+import {
+  Navigation,
+  SkillSection,
+  ProjectSection,
+  Footer,
+  HeroSection,
+} from "./components";
+
 import { AppContainer } from "./styles/App.styles";
 
 import { GlobalStyles } from "./styles/GlobalStyles";
@@ -28,39 +35,10 @@ const App = () => {
       <AppContainer>
         <GlobalStyles />
         <Navigation toggleThemeHandler={toggleTheme} />
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
+        <HeroSection />
+        <SkillSection />
+        <ProjectSection />
+        <Footer />
       </AppContainer>
     </ThemeProvider>
   );
