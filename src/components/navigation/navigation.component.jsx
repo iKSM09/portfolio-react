@@ -15,16 +15,13 @@ const Navigation = (props) => {
         <h2>Kunal Sharma</h2>
         <NavLinks>
           <NavLink>
-            <a href="">About</a>
+            <a href="#skills">Skills</a>
           </NavLink>
           <NavLink>
-            <a href="">Skills</a>
+            <a href="#projects ">Work</a>
           </NavLink>
           <NavLink>
-            <a href="">Work</a>
-          </NavLink>
-          <NavLink>
-            <a href="">Get in Touch</a>
+            <a href="#footer">Get in Touch</a>
           </NavLink>
           <NavLink>
             <ToggleButton onClick={toggleThemeHandler}>

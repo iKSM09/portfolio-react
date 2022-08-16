@@ -13,6 +13,18 @@ const ReseterCSS = css`
     box-sizing: border-box;
     font-family: sans-serif;
   }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
   main {
     display: block;
   }
